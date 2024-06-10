@@ -1,0 +1,27 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style_first.css" />
+		<title>Three.js Water Animation</title>
+	</head>
+	<body>
+		<canvas class="screen"></canvas>
+		<button onclick="window.location.href='../index.html'">
+			Вернуться назад
+		</button>
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "/../../node_modules/three/build/three.module.js",
+					"three/examples/jsm/libs/stats.module": "/../../node_modules/three/examples/jsm/libs/stats.module.js",
+					"three/examples/jsm/libs/lil-gui.module.min": "/../../node_modules/three/examples/jsm/libs/lil-gui.module.min.js",
+					"three/examples/jsm/controls/OrbitControls": "/../../node_modules/three/examples/jsm/controls/OrbitControls.js",
+					"three/examples/jsm/objects/Water": "/../../node_modules/three/examples/jsm/objects/Water.js",
+					"three/examples/jsm/objects/Sky": "/../../node_modules/three/examples/jsm/objects/Sky.js"
+				}
+			}
+		</script>
+		<script type="module" src="Water_example.js"></script>
+	</body>
+</html>

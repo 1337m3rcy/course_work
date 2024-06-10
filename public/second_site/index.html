@@ -1,0 +1,26 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link type="text/css" rel="stylesheet" href="style_second.css" />
+		<title>Three.js Water Animation</title>
+	</head>
+	<body>
+		<canvas class="screen"></canvas>
+		<button onclick="window.location.href='../index.html'">
+			Вернуться назад
+		</button>
+		<script type="importmap">
+			{
+				"imports": {
+					"three": "../node_modules/three/build/three.module.js",
+					"three/addons/libs/lil-gui.module.min.js": "../node_modules/three/examples/jsm/libs/lil-gui.module.min.js",
+					"three/addons/controls/OrbitControls.js": "../node_modules/three/examples/jsm/controls/OrbitControls.js",
+					"three/addons/objects/Water2.js": "../node_modules/three/examples/jsm/objects/Water2.js"
+				}
+			}
+		</script>
+
+		<script type="module" src="Water2_example.js"></script>
+	</body>
+</html>
